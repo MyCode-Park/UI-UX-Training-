@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tableStyle.css" />
+
+    <title>Manage Employee</title>
+  </head>
+  <body class="body__container">
+    <div class="title__body">
+      <div class="title__head">
+        <h1 class="table__body">Manage Employee</h1>
+      </div>
+      <div class="title__btn">
+        <button class="table__btnDel">
+          <img src="assets/delete-icon.JPG" class="table__img" />Delete
+        </button>
+        <button id="show" class="table__btnAdd">
+          <img src="assets/add.JPG" class="table__img" />Add New Employee
+        </button>
+      </div>
+    </div>
+
+    <div>
+      <dialog class="table__dbox" id="dbox">
+        <div>
+          <h4>Add Employee</h4>
+          <div class="dbox__input">
+            <label class="dbox__label">Name</label>
+            <input class="dbox__input" type="text" />
+            <label class="dbox__label">Email</label>
+            <input class="dbox__input" type="email" />
+            <label class="dbox__label">Address</label>
+            <input class="dbox__input" type="text" />
+            <label class="dbox__label">Phone</label>
+            <input class="dbox__input" type="number" />
+          </div>
+          <div>
+            <button class="dbox__btn" id="hide">Cancel</button>
+            <button class="dbox__btnAdd" id="hide">Add</button>
+          </div>
+        </div>
+      </dialog>
+    </div>
+
+    <table class="table__container">
+      <th class="table__head">
+        <tr class="table__headRow">
+          <td><input type="checkbox" /></td>
+          <td>Name</td>
+          <td>Email</td>
+          <td>Address</td>
+          <td>Phone</td>
+          <td>Action</td>
+        </tr>
+      </th>
+      <tb>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Thomas</td>
+          <td>Thomas21@gmail.com</td>
+          <td>89 Flaming St, Portland, USA</td>
+          <td>(2121)121212</td>
+          <td class="table__rowImg">
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/edit.JPG"
+              alt=""
+            />
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/delete.JPG"
+              alt=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Michel</td>
+          <td>Mch@gmail.com</td>
+          <td>56, Calls road, Lousiana, USA</td>
+          <td>(1212)2367676</td>
+          <td class="table__rowImg">
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/edit.JPG"
+              alt=""
+            />
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/delete.JPG"
+              alt=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Jake</td>
+          <td>jake@gmail.com</td>
+          <td>43, Rhodes Island, USA</td>
+          <td>(1212)9863437</td>
+          <td class="table__rowImg">
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/edit.JPG"
+              alt=""
+            />
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/delete.JPG"
+              alt=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Paul</td>
+          <td>paul@gmail.com</td>
+          <td>121, Lords st, LA, USA</td>
+          <td>(1212)8977262</td>
+          <td class="table__rowImg">
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/edit.JPG"
+              alt=""
+            />
+            <img
+              src="/my-app/Web Development/HTML/Table/assets/delete.JPG"
+              alt=""
+            />
+          </td>
+        </tr>
+      </tb>
+    </table>
+
+    <!-- JAVA SCRIPT FOR DIALOG BOX -->
+    <script type="text/JavaScript">
+      (function () {
+        var dialog = document.getElementById("dbox");
+        document.getElementById('show').onclick = function(){
+          dialog.show();
+        };
+        document.getElementById('hide').onclick = function(){
+          dialog.close();
+        };})();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+.body__container {
+  width: 95%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.title__body {
+  background-color: rgb(72 81 122);
+  display: flex;
+}
+
+.table__body {
+  color: white;
+  padding: 15px;
+}
+
+.table__container {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table__headRow {
+  font-weight: 900;
+}
+
+.table__rowImg {
+  cursor: pointer;
+  display: flex;
+}
+
+* tr {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+* td {
+  padding: 10px;
+  align-items: center;
+}
+
+* td:nth-child(6) {
+  width: 1%;
+}
+
+.title__btn {
+  display: flex;
+  width: 23%;
+  margin: auto;
+  height: 110px;
+  position: relative;
+  left: 23%;
+  font-weight: 300;
+}
+
+.table__btnDel {
+  height: 41%;
+  margin: auto;
+  /* width: 10%; */
+  background: #dc3347;
+  color: white;
+  display: flex;
+  font-weight: 700;
+  cursor: pointer;
+  align-items: center;
+}
+
+.table__btnAdd {
+  height: 41%;
+  margin: auto;
+  /* width: 15%; */
+  background: #269f3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.table__img {
+  margin-right: 10px;
+}
+
+/* Dialog box */
+
+.table__dbox {
+  margin-top: 5px;
+  width: 30%;
+}
+
+.dbox__input {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.dbox__label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.dbox__input {
+  padding: 10px;
+}
+
+.dbox__btn,
+.dbox__btnAdd {
+  padding: 10px;
+  margin: 10px;
+  float: right;
+  width: 25%;
+  cursor: pointer;
+}
+
+.dbox__btnAdd {
+  background-color: #269f3e;
+  color: white;
+  box-shadow: none;
+}
