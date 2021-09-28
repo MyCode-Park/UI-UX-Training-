@@ -1,0 +1,15 @@
+/* Default page setup */
+h1 {
+  margin: 0px;
+}
+
+/* Class modifiers */
+
+.home__body {
+  margin: 0px;
+}
+
+.home__container {
+  background-color: #334756;
+  color: #f0a500;
+}
