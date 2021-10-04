@@ -1,0 +1,159 @@
+/* Default changes */
+
+body {
+  background-color: #0092ed;
+  font-family: system-ui;
+}
+
+h2 {
+  margin: 0;
+}
+
+/* Class modifiers */
+
+.profile__container {
+  display: flex;
+}
+.profile__body {
+  align-items: center;
+  width: 75%;
+  margin: auto;
+}
+
+.profile__head {
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+/* Styles for profile list */
+
+.profile__list {
+  width: 60%;
+  /* margin: 10px; */
+}
+
+.profile__listImg {
+  border: 2px solid white;
+  border-radius: 100%;
+  color: blanchedalmond;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.profile__listImg:hover {
+  border: 2px solid #0092ed;
+  cursor: pointer;
+}
+
+.profile__listDetails {
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 2% 0%;
+}
+
+.profile__listDetails:hover {
+  background-color: white;
+  border: 2px solid #0092ed;
+  cursor: pointer;
+  color: #0092ed;
+}
+
+.profile__funcAll {
+  margin-left: 10%;
+  display: flex;
+}
+/* Child Class */
+
+.profile__name {
+  margin: 0% 10%;
+}
+
+.profile__type {
+  /* margin: 0% 10%; */
+}
+
+.profile__func {
+  margin-left: 5%;
+  text-decoration: none;
+  color: white;
+}
+
+/* Styles for profile input */
+
+.profile__input {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.profile__inputImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 2px solid white;
+  margin: 25px auto;
+}
+
+.profie__input {
+  width: 40%;
+  margin: auto;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profie__inputMsg {
+  width: 40%;
+  margin: auto;
+  height: 50px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.589);
+  opacity: 1; /* Firefox */
+}
+
+.profile__inputBtnSav {
+  width: 45%;
+  padding: 2%;
+  margin: 5px auto;
+  background: white;
+  color: #0092ed;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.profile__inputBtnCls {
+  width: 45%;
+  padding: 2%;
+  margin: 5px auto;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.profile__inputBtn {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
