@@ -1,0 +1,158 @@
+/* Navbar */
+.navbar-nav {
+  margin: 1%;
+  margin-left: 5%;
+}
+
+/* button */
+.btn-orng {
+  border: 1px solid #f96424 !important;
+  background-color: #f96424 !important;
+}
+
+/*  body */
+.s__body {
+  margin-top: 3% !important;
+}
+
+.section__body {
+  height: 70vh;
+  width: 95%;
+  margin: auto !important;
+}
+
+.section__container {
+  margin-left: 5%;
+}
+
+.section__img {
+  text-align: end;
+}
+
+.section__heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 60px;
+}
+
+/* Footer */
+.home__footer {
+  background-color: #6b4fbb;
+  color: white;
+}
+
+.footer__ul {
+  list-style: none;
+}
+
+.footer__icon {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  color: white;
+}
+
+.footer__i {
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.footer__list {
+  width: 75%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.footer__logo {
+  width: 5%;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: -68px;
+}
+
+/* Media query */
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .section__img {
+    text-align: center;
+
+    /* display: none; */
+  }
+
+  .section__left {
+    text-align: center;
+  }
+
+  .body__btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .s__body {
+    padding-bottom: 60px;
+  }
+
+  .btns {
+    margin-bottom: 10px;
+  }
+}
+
+/* Smart Phones */
+@media all and (max-width: 490px) {
+  .s__body {
+    padding-bottom: 100%;
+    /* width: 20%; */
+  }
+  .section__heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 36px;
+  }
+
+  .section__IMG {
+    width: 100%;
+  }
+
+  .btns {
+    margin-bottom: 10px;
+  }
+
+  .footer__logo {
+    width: 12%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: -47px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .s__body {
+    padding-bottom: 120%;
+    /* width: 20%; */
+    /* display: none; */
+  }
+
+  .section__IMG {
+    width: 100%;
+  }
+
+  .btns {
+    margin-bottom: 10px;
+  }
+}
