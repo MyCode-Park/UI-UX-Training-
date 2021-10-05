@@ -1,3 +1,3 @@
 <div>
-  <h1>GitLab</h1>
+  <h1>GitLaab</h1>
 </div>;
